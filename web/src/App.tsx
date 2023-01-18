@@ -6,7 +6,7 @@ function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div className='bg-zinc-900'>
+    <div>
       <Habit completed={1} />
       <Habit completed={2} />
       <Habit completed={3} />
